@@ -1,0 +1,12 @@
+.movie-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-poster {
+    width: 50%;
+}
+
+.movie-info {
+    width: 50%;
+}

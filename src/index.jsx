@@ -6,17 +6,20 @@ import { Home } from './components/Home';
 import { Reviews } from './components/Reviews';
 import { Articles } from './components/Articles';
 import { Movies } from './components/Movies';
+import { Movie } from './components/Movie';
 import './style.css';
 
 const App = () => {
   return (
     <div className="container">
-      <Menu />
-      <main>
-        <Outlet/>
-      </main>
+      <div className="content-wrap">
+        <Menu />
+        <main>
+          <Outlet/>
+        </main>
+        </div>
       <footer>
-        <p>Czechitas, React course</p>
+        <div className="footer-text">Czechitas, React course</div>
       </footer>
     </div>
   );
@@ -43,7 +46,13 @@ const router = createBrowserRouter([
       {
         path: "/movies",
         element: <Movies />,
-      }
+        children: [
+          {
+            path: "/movies:id",
+            element: <Movie />,
+          }
+        ]
+      } 
     ]
   }
 ]);

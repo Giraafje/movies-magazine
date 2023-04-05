@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Cinema from './../../images/Cinema.jpg';
 
 
 export const Articles = () => {
@@ -12,6 +13,8 @@ export const Articles = () => {
             <p>Our team of writers is passionate about movies and brings a wealth of knowledge and expertise to every article. We believe that cinema is not only a form of entertainment but also a reflection of our society and culture. That's why we strive to offer thought-provoking articles that go beyond the surface of the movies we love.</p>
 
             <p>Whether you're a casual moviegoer or a seasoned cinephile, we invite you to explore our collection of articles and discover new insights into the world of film. Don't forget to check back regularly as we update our page with new content on a regular basis.</p>
+
+            <img src={Cinema} alt="Cinema" width='100%'/>
       </div>
     )
 };

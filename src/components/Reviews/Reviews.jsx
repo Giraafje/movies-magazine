@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Rating from './../../images/Rating.png';
 
 
 export const Reviews = () => {
@@ -12,6 +13,8 @@ export const Reviews = () => {
             <p>We believe that a good review should not only offer an opinion on the film's quality but also provide a deeper analysis of its themes, performances, and technical aspects. We strive to offer you a comprehensive understanding of each film, whether it's a blockbuster or an indie gem.</p>
 
             <p>Browse through our selection of reviews and discover new movies to add to your watchlist. We also encourage you to share your thoughts and opinions in the comments section, as we believe that movies are meant to be discussed and debated.</p>
+
+            <img src={Rating} alt="Five stars rating" width='100%'/>
         </div>
     )
 };
