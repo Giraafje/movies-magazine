@@ -1,7 +1,6 @@
 import React from 'react';
-import film from './../../images/film.jpg'
-import './error.css'
-
+import film from './../../images/film.jpg';
+import './error.css';
 
 export const Error = () => {
 
