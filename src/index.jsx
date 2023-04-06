@@ -7,6 +7,7 @@ import { Reviews } from './components/Reviews';
 import { Articles } from './components/Articles';
 import { Movies } from './components/Movies';
 import { Movie } from './components/Movie';
+import { Error } from './components/Error'
 import './style.css';
 
 const App = () => {
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error/>,
     children: [
       {
         path: "/",

@@ -23,7 +23,7 @@ export const Movie = () => {
                     <p><b>Director: </b>{movie.director}</p>
                     <p><b>Genre: </b>{movie.genre}</p>
                     <h3>Cast:</h3>
-                    <ul key={movie.id}>{movie.cast.map((c) => <li>{c.name} ({c.as})</li>)}</ul>
+                    <ul>{movie.cast.map((c) => <li key={c.name}>{c.name} ({c.as})</li>)}</ul>
                 </div>  
             </div>
             <h2>{movie.title}</h2>

@@ -1,0 +1,17 @@
+
+.error-code {
+    font-size: 6rem;
+    text-align: center;
+    color: red;
+}
+
+.error-text {
+    text-align: center;  
+    font-size: 3rem;
+    margin-top: -2rem;
+}
+
+.error-image img {
+    margin: auto;
+    display: block;
+}
