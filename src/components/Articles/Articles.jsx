@@ -1,5 +1,5 @@
 import React from 'react';
-import Cinema from './../../images/Cinema.jpg';
+import Cinema from './../../images/cinema.jpg';
 
 
 export const Articles = () => {

@@ -2,7 +2,6 @@ import React from 'react';
 import { MovieList } from './../MovieList';
 import { Movie } from './../Movie';
 import { Outlet } from 'react-router-dom';
-import { movies } from './../../movie-database';
 import './movies.css';
 
 
